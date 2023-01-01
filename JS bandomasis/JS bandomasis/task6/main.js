@@ -13,3 +13,13 @@ const asmenys = [
   { id: '6', name: 'Kamilė', masina: "BMW", masinosGamybosMetai: 1999 },
   { id: '7', name: 'Aloyzas', masina: "Honda", masinosGamybosMetai: 2010 }
 ];
+
+function vidurkis(masina) {
+  let suma = 0;
+  masina.forEach((vartotojas) => {
+    suma += vartotojas.masinosGamybosMetai;
+  });
+  return suma / masina.length;
+}
+
+console.log(vidurkis(asmenys));

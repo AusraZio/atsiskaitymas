@@ -14,3 +14,12 @@ const asmenys = [
   { id: '6', name: 'Kamilė', turiMasina: true },
   { id: '7', name: 'Aloyzas', turiMasina: true }
 ];
+
+
+function filtruotiAsmenys(asmenys) {
+  // Išfiltruojame asmenis, kurie turi mašinas
+  const masinuTurintysAsmenys = asmenys.filter(asmuo => asmuo.turiMasina);
+
+  // Grąžiname išfiltruotą masyvą
+  return masinuTurintysAsmenys;
+}

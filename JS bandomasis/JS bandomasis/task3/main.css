@@ -1,0 +1,14 @@
+#display-element {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+  }
+
+  #display-element {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    padding: 10px;
+  }

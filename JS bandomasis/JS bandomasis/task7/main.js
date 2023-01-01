@@ -11,3 +11,9 @@ const asmuo = {
   lytis : "vyras",
   vedes : false
 }
+
+function raktazodziai(objektas) {
+  return Object.keys(objektas);
+}
+
+console.log(raktazodziai(asmuo));
